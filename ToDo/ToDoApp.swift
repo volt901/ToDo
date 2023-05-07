@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct ToDoApp: App {
+    let migrator = Migrator()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
